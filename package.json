@@ -1,0 +1,13 @@
+{
+  "name": "docker-github-cicd",
+  "version": "1.0.0",
+  "description": "Simple Node.js health-check application with Docker and GitHub Actions CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
